@@ -1,0 +1,37 @@
+{
+  "name": "black-template",
+  "version": "1.0.0",
+  "description": "Starting point for Black powered apps.",
+  "main": "js/main.js",
+  "scripts": {
+    "start": "webpack-dev-server --config webpack.config.dev.js",
+    "build": "webpack --config webpack.config.prod.js",
+    "build:dev": "webpack --config webpack.config.dev.js",
+    "clean": "rimraf dist/*"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MassiveHeights/Black-Template.git"
+  },
+  "author": "Massive Heights",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/MassiveHeights/Black-Template/issues"
+  },
+  "homepage": "https://blacksmith2d.io",
+  "devDependencies": {
+    "@babel/core": "latest",
+    "@babel/plugin-transform-runtime": "latest",
+    "@babel/preset-env": "latest",
+    "@babel/runtime-corejs2": "latest",
+    "babel-loader": "latest",
+    "black-engine": "0.5.10",
+    "file-loader": "latest",
+    "html-webpack-plugin": "latest",
+    "rimraf": "latest",
+    "webpack": "latest",
+    "webpack-cli": "latest",
+    "webpack-dev-server": "latest",
+    "webpack-merge": "^4.2.1"
+  }
+}
